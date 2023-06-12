@@ -30,3 +30,11 @@ should return
 If the minimum size is less than or equal to the length of the list, it should just return the list. That is, `pad([1,2,3], 3)` should return `[1,2,3]`. `pad(my_array, 0)` should always return a list equal to `my_array`.
 
 Remember to write tests!
+
+## JS Usage
+
+```sh
+cd js
+npm install
+node padArraySpec.js 
+```
