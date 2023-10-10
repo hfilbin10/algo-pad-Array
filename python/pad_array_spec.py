@@ -6,6 +6,7 @@ from pad_array import pad
 print(pad([1,2,3], 5) == [1,2,3, None, None])
 print(pad([1,2,3], 5, 'apple') == [1,2,3,'apple','apple'])
 print(pad([1,2,3], 3) == [1,2,3])
+print(pad([1,2,3], 0, 'apple') == [1,2,3])
 
 # Challenge - what edge case do we NOT have tests for? Add a test for it, and any other tests you think will increase our test coverage
 # for the possible valid inputs our program might receive.
